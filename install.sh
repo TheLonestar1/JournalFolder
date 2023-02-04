@@ -16,7 +16,7 @@ mkdir $BUILD_DIR
 cd $BUILD_DIR
 
 # Вызов CMake
-cmake ~/$SRC_DIR
+cmake $SRC_DIR
 
 # Сборка проекта с помощью Make
 make
